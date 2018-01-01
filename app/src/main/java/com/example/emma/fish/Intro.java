@@ -29,6 +29,7 @@ public class Intro extends AppCompatActivity {
                 finish();
             }
         },3000);
+        //
 
     }
     private void initView(){
