@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity"
-    >
-    <item android:id="@+id/action_button2"
-        android:title="Menu"
-        android:icon="@drawable/menu"
-        app:showAsAction="always|withText" />
-
-    <item android:id="@+id/action_shopping"
-        android:title="Basket"
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_boast"
+        android:title="@string/nav_item_boast"
         android:icon="@drawable/basket"
-        app:showAsAction="always" />
-
-    <item android:id="@+id/action_login"
-        android:title="로그인"
-        app:showAsAction="ifRoom"/>
-    <item android:id="@+id/action_about"
-        android:title="문의하기"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
 </menu>
