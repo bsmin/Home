@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_login"
+            android:checked="true"
+            android:icon="@drawable/ic_action_logout"
+            android:title="@string/nav_item_login" />
+        <item
+            android:id="@+id/navigation_item_reservation"
+            android:icon="@drawable/ic_action_reservation"
+            android:title="@string/nav_item_reservation" />
+        <item
+            android:id="@+id/navigation_item_notice"
+            android:icon="@drawable/ic_action_notice"
+            android:title="@string/nav_item_notice" />
+        <item
+            android:id="@+id/navigation_item_question"
+            android:icon="@drawable/ic_action_question"
+            android:title="@string/nav_item_question" />
+        <item
+            android:id="@+id/navigation_item_main"
+            android:icon="@drawable/ic_action_main"
+            android:title="@string/nav_item_main" />
+        <!--<item android:title="@string/nav_sub_menu">
+            <menu>
+                <item
+                    android:id="@+id/nav_sub_menu_item01"
+                    android:icon="@drawable/ic_basket"
+                    android:title="@string/nav_sub_menu_item01" />
+                <item
+                    android:id="@+id/nav_sub_menu_item02"
+                    android:icon="@drawable/ic_basket"
+                    android:title="@string/nav_sub_menu_item02" />
+            </menu>
+        </item>-->
+    </group>
+</menu>
