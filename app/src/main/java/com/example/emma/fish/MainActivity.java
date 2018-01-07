@@ -1,6 +1,7 @@
 package com.example.emma.fish;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -11,12 +12,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.example.emma.fish.view.Main;
 import com.example.emma.fish.view.Notice;
 import com.example.emma.fish.view.Reservation;
 import com.example.emma.fish.view.Sign;
+import com.example.emma.fish.view.maps.FragmentGoogleMap;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -70,6 +71,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.navigation_item_main:
                 fragment = new Main();
+                break;
+            case R.id.navigation_item_company:
+                Intent intent = new Intent(MainActivity.this, FragmentGoogleMap.class);
+                startActivity(intent);
                 break;
         }
         //replacing the fragment

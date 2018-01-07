@@ -11,6 +11,10 @@
             android:icon="@drawable/ic_action_reservation"
             android:title="@string/nav_item_reservation" />
         <item
+            android:id="@+id/navigation_item_company"
+            android:icon="@drawable/ic_action_company"
+            android:title="@string/nav_item_company" />
+        <item
             android:id="@+id/navigation_item_notice"
             android:icon="@drawable/ic_action_notice"
             android:title="@string/nav_item_notice" />

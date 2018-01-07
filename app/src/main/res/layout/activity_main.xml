@@ -16,6 +16,15 @@
         android:layout_gravity="start"
         android:background="@color/colorPrimaryDark"
         app:headerLayout="@layout/drawer_header"
-        app:menu="@menu/nav_menu"></android.support.design.widget.NavigationView>
+        app:menu="@menu/nav_menu"><!--app:menu="@menu/nav_menu"-->
+
+        <!--<android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>-->
+
+    </android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>
